@@ -95,7 +95,7 @@ var firebaseConfig = {
   var firebase = initializeApp(firebaseConfig); // #FIREBASE
   
   // Get a reference to the database service
-  var database = firebase.database(); // #FIREBASE
+  var db = firebase.database(); // #FIREBASE
   
   // login anonymous user
   firebase.auth().signInAnonymously().catch(function(error) { // #FIREBASE
