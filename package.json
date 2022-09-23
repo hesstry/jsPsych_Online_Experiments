@@ -1,0 +1,23 @@
+{
+  "name": "jspsych_online_experiments",
+  "version": "1.0.0",
+  "description": "This is the repository created by Bradley C. Smith (BCS) to document one method of running an online experiment like this one: https://smithbradleyc.github.io/jsPsych_Online_Experiments/. This method uses jsPsych (a JavaScript library for running behavioural experiments in a web browser) to create the experiment, GitHub Pages to host the experiment, and a real-time FireBase database to collect participant's responses. All of these services can be used completely for free (as of April 2020). Anything written by someone other than BCS will be clearly tagged to that person with either a hyperlink to that person's GitHub account or with one of the tags below:\r - [Matt Cook](https://github.com/cookm346): **#MC**\r - [Jackie Spear](https://github.com/jackiespear): **#JS**\r - [Matt Crump](https://github.com/CrumpLab): **#MJC**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesstry/jsPsych_Online_Experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hesstry/jsPsych_Online_Experiments/issues"
+  },
+  "homepage": "https://github.com/hesstry/jsPsych_Online_Experiments#readme",
+  "dependencies": {
+    "firebase": "^9.10.0",
+    "jspsych": "^7.3.0"
+  }
+}
