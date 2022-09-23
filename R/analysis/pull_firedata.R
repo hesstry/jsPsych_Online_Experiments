@@ -8,8 +8,8 @@ library(fireData) # https://github.com/Kohze/fireData
 # secret key = zVIDsa5nmGLKDD73ymLIKkrdoNpGDrTC4nKe2KKa
 
 # download all files from database
-dataBackup(projectURL = "https://contingencypractice.firebaseio.com", #databaseURL
-           secretKey = "zVIDsa5nmGLKDD73ymLIKkrdoNpGDrTC4nKe2KKa", #Secret Key of the database
+dataBackup(projectURL = "https://onl-exp-psych-ucsb-default-rtdb.firebaseio.com", #databaseURL
+           secretKey = "JT1ezZHFR4SuuG8wYxu29P4IBBNWiSBS7IYxkumy", #Secret Key of the database
            "./data/data.json") # file path of where to save the data (out default assumes cloning the GitHub repo)
 
 
